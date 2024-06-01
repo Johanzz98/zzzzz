@@ -1,0 +1,35 @@
+/* Asegurarse de que los botones tengan un fondo blanco */
+.react-multi-carousel-dot button,
+.react-multiple-carousel__arrow--left,
+.react-multiple-carousel__arrow--right {
+  background-color: white!important; /* Uso de!important para asegurar la aplicación */
+  border: none;
+ 
+}
+
+/* Establecer el color de las flechas a negro */
+.react-multi-carousel-dot button i,
+.react-multiple-carousel__arrow--left::before,
+.react-multiple-carousel__arrow--right::before {
+  color: black!important; /* Uso de!important para asegurar la aplicación */
+  font-size: 18px; /* Tamaño del icono */
+}
+
+/* Ajustar la posición de los botones de navegación */
+.react-multi-carousel-dot button {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Posicionamiento específico para los botones de flecha izquierda y derecha */
+.react-multiple-carousel__arrow--left {
+  left: 40px;
+  top: 80%;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: 40px;
+  top: 80%;
+}
+
+

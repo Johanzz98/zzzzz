@@ -1,0 +1,42 @@
+.product-animation-enter {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.product-animation-enter-active {
+  opacity: 1;
+  max-height: 500px; /* Altura máxima deseada */
+  transition: opacity 0.5s ease, max-height 0.5s ease; /* Duración y tipo de transición */
+}
+
+.product-animation-exit {
+  opacity: 1;
+  max-height: 500px; /* Altura máxima deseada */
+  overflow: hidden;
+}
+
+.product-animation-exit-active {
+  opacity: 0;
+  max-height: 0;
+  transition: opacity 0.5s ease, max-height 0.5s ease; /* Duración y tipo de transición */
+}
+
+
+.description-enter {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.description-enter-active {
+  opacity: 1;
+}
+
+.description-exit {
+  opacity: 1;
+  transition: opacity 300ms ease-in-out;
+}
+
+.description-exit-active {
+  opacity: 0;
+}

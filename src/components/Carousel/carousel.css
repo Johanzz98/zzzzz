@@ -1,0 +1,28 @@
+/* En tu archivo CSS */
+
+/* Modificar la posición de los botones de navegación */
+.react-multi-carousel-dot button {
+  
+  top: 50%; /* Ajusta la posición vertical */
+  transform: translateY(-50%);
+}
+
+/* Cambiar el estilo de los botones */
+.react-multi-carousel-dot button {
+  background-color: transparent;
+  border: none;
+  color: #000; /* Color del icono */
+  font-size: 24px; /* Tamaño del icono */
+}
+
+/* Estilizar el botón izquierdo */
+.react-multiple-carousel__arrow--left {
+  left: 36px; /* Ajusta la posición izquierda */
+  top: 30%;
+}
+
+/* Estilizar el botón derecho */
+.react-multiple-carousel__arrow--right {
+  right: 36px; /* Ajusta la posición derecha */
+  top: 30%;
+}
